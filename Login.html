@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/12c736679e.js" crossorigin="anonymous"></script>
+    <title>Login_page</title>
+    <style>
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+      
+        
+
+    }
+    body{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:#1d1925;
+}
+
+  
+    #hero{
+       
+        height:500px;
+       margin:0px;
+        width:70vw;
+        background-color:#2a2535;
+        padding:10px;
+        display:flex;
+        border-radius: 10px;;
+        
+        
+    }
+    #first{
+       
+        height:100%;
+        width:50%;
+        background-color: #2a2535;
+        background-image: url("wine.avif");
+        background-size: cover;
+        background-position-x: center;
+        
+        background-repeat: no-repeat;
+        border-radius: 10px;
+       
+
+
+    }
+   #second{
+   
+    height: 100%;
+    width:50%;
+    background-color: #2a2535;
+    padding:60px 60px 10px 60px;
+   
+   }
+   a{
+    text-decoration: none;
+    color:white;
+   }
+   #inputs{
+    display:flex;
+    width:100%;
+   }
+   input[type="text"],input[type="submit"]{
+    width:50%;
+    height:30px;
+    color:white;
+    margin: 10px 10px 10px 0px;
+    padding:5px;
+    background-color: #413a52;
+    border:none;
+    border-radius: 2px;
+   }
+   input[type="submit"]{
+     width:97%;
+    height:30px;
+    color:white;
+    margin: 10px 10px 10px 0px;
+    padding:5px;
+    background-color: rgb(86, 52, 126);
+    border:none;
+
+   }
+   
+  
+   input[type="password"],input[type="email"]{
+
+   width:97%;
+   height:35px;
+   margin:10px 0px 10px 0px;
+   padding:5px;
+   background-color:  #413a52;
+   border:none;
+   border-radius: 3px;
+   }
+   #link{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   }
+   .ga{
+    height:30px;
+    width:30%;
+    border:1px solid white;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+   }
+   
+</style>
+</head>
+<body>
+
+<div id="hero">
+    <div id="first"></div>
+    <div id="second">
+        <h1 style="color:white; text-align:center; margin-bottom: 10px;">Create an account</h1>
+        <p style="color:rgb(108, 100, 106);">Already have an account?<a href="#">Log in</a></p>
+        <form>
+            <div id="inputs">
+            <input type="text" placeholder="First Name" id="Fname" name="txtFN">
+             <input type="text" placeholder="Last Name"
+             id="LName" name="txtLN"></div>
+             <input type="email" placeholder="Email">
+             <input type="password" placeholder="Enter your password" ><br>
+             <input type="checkbox"><span style="color:rgb(108, 100, 106);"> I agree to the</span> <a href="#">Term & Conditions</a>
+             <input type="submit" value="Create account">
+             <p style="color:white; text-align: center;">Or register with</p>
+                <div id="link">
+                    <a href="#" class="ga" >Google <i class="fa-brands fa-google" style="color: rgb(136, 91, 190);"></i></a>
+             <a href="#" class="ga">Apple <i class="fa-brands fa-apple" style="color: rgb(241, 242, 243);"></i></a>
+                </div>
+             
+        </form>
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>
